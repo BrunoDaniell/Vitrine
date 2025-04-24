@@ -1,6 +1,9 @@
 
 
 body{
+
+    font-size: 14px;
+    margin-right: 20px;
    
     margin: auto;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
@@ -33,12 +36,12 @@ main img{
     
 }
 
-ul{
+.conteiner ul{
     display: flex;
     justify-content: center;
     list-style-type: none;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
     background-color: green;
     filter: drop-shadow(0px 0px 2px currentColor);
     border-radius: 12px 12px 0px 0px;
@@ -86,11 +89,42 @@ footer a{
 footer p{
     margin-top: 2px;
 }
+
 .conteiner{
-    padding: 00pc 50px;
-    font-size: 14px;
-    margin-right: 20px;
+    padding: 0pc 50px;
+    font-size: 20px;
+    margin-right: auto;
+    
 }
+.botao {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-family: sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .botao:hover {
+    background-color: white;
+    color: green;
+    border: 1px solid green;
+  }
+  
+  /* Alinhamento e espaçamento dos botões */
+  .menu-botoes {
+    display: flex;
+    flex-direction: column; /* ou row se quiser lado a lado */
+    align-items: center;
+    gap: 15px; /* espaçamento entre os botões */
+    list-style-type: none; /* tira os marcadores de lista */
+    padding: 0;
+    margin: 30px 0;
+  }
 
 nav a:hover {
     color: green;
