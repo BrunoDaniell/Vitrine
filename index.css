@@ -1,0 +1,110 @@
+
+
+body{
+   
+    margin: auto;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    overflow: auto;
+    background: linear-gradient(315deg, rgb(7, 6, 7) 3%, rgb(80, 85, 95) 38%, rgb(24, 29, 29) 68%, black  98%);
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+    color: white;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+main img{
+    width: 384px;
+    height: 245px; 
+    align-items: flex-start;
+    display: flex;    
+    margin-right: 15px; /* espaço entre a imagem e o conteúdo à direita */
+    
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    align-items: center;
+    padding: 20px;
+    background-color: green;
+    filter: drop-shadow(0px 0px 2px currentColor);
+    border-radius: 12px 12px 0px 0px;
+    font-size: 30px;
+}
+
+ul a{
+    margin: 20px;
+    font-size: 14px;
+    margin-right: 20px;
+    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.center{
+    text-align: center;
+}
+
+
+footer img{
+    
+    width: 50px;
+    height: 50px;
+    
+}
+
+footer{
+    
+    display: flex;
+    justify-content: center;
+           
+}
+
+footer a{
+    margin: 40px;
+    text-align: center;
+    
+}
+
+footer p{
+    margin-top: 2px;
+}
+.conteiner{
+    padding: 00pc 50px;
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+nav a:hover {
+    color: green;
+}
+
+h2 {
+	color: white;
+    background-color: green;
+	font-family: 'Share Tech Mono', 'Cascadia Code', Menlo, Monaco, 'Courier New', monospace;
+	font-size: 30px;
+	filter: drop-shadow(0px 0px 2px currentColor);
+	
+
+}
+
+
+
